@@ -1,0 +1,83 @@
+/*
+
+font-family: 'Bitter', serif;
+font-family: 'Raleway', sans-serif;
+
+$section-header-font-size: 1.4em;
+$link-color: #555;
+$link-hover-color: #ec6563; // #3464b6;
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "Bitter", serif;
+  font-size: 22px;
+  color: #444;
+  background-color: #fcfcfc;
+}
+
+.btn {
+  white-space: normal;
+}
+
+section h4 {
+  line-height: 1.3em;
+  color: #444;
+  font-size: 1.4em;
+  font-weight: normal;
+  margin: 0px 0px 40px 0;
+}
+
+section h5 {
+  line-height: 1.3em;
+  color: #444;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 40px 0px 40px 0;
+}
+
+section a {
+  color: #555;
+  margin-top: 20px;
+  border-bottom: 1px dotted #555;
+}
+
+section a:hover,
+section a:active,
+section a:focus {
+  color: #555;
+  outline: none;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+section a:hover,
+section a:focus {
+  color: #ec6563;
+}
+
+/*
+    Bootstrap full width row
+*/
+.container-fliud .row {
+  margin: 0;
+}
+
+/*
+@import "navigation";
+@import "home";
+@import "services";
+@import "books";
+@import "projects";
+@import "trainings";
+@import "customer-feedback";
+@import "contact";
+@import "cv";
+@import "footer";
+*/
