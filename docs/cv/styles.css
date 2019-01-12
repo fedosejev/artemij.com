@@ -65,6 +65,10 @@ a:active {
   border-bottom: 1px solid #777;
 }
 
+a.btn {
+  padding-bottom: inherit;
+}
+
 .contact {
   margin-top: 40px;
 }
