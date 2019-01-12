@@ -65,8 +65,19 @@ a:active {
   border-bottom: 1px solid #777;
 }
 
-a.btn {
-  padding-bottom: inherit;
+.download-cv-button,
+.download-cv-button:hover,
+.download-cv-button:focus,
+.download-cv-button:active {
+  display: inline-block;
+  margin: 40px 0 10px 0;
+  border: 0;
+}
+
+.download-cv-button span {
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 26px;
 }
 
 .contact {
@@ -78,20 +89,6 @@ a.btn {
   margin: 0 30px;
   display: inline-block;
   border-bottom: none;
-}
-
-.download-cv-button {
-  text-transform: uppercase;
-  display: inline-block;
-  padding: 0.8em 1.2em;
-  margin: 30px 0 10px 0;
-  font-size: 1.1em;
-  font-weight: 600;
-  box-shadow: none;
-  color: #fff;
-  text-shadow: -1px 1px #555;
-  border: none;
-  border-radius: 10px;
 }
 
 .download-cv-button:focus {
