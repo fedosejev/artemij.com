@@ -48,6 +48,13 @@ h2 {
   line-height: 1.9em;
 }
 
+p {
+  font-size: 1.1em;
+  font-weight: 300;
+  font-family: sans-serif;
+  line-height: 1.9em;
+}
+
 a {
   text-decoration: none;
   word-wrap: break-word;
@@ -101,4 +108,10 @@ a:active {
 
 .download-cv-button:active {
   text-shadow: -1px 1px #333;
+}
+
+.copyright {
+  font-size: 22px;
+  font-weight: 100;
+  color: #999;
 }
