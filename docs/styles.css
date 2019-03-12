@@ -48,11 +48,21 @@ h2 {
   line-height: 1.9em;
 }
 
+h3 {
+  font-size: 1.6em;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
 p {
   font-size: 1.1em;
   font-weight: 300;
   font-family: sans-serif;
   line-height: 1.9em;
+}
+
+p strong {
+  font-weight: bold;
 }
 
 a {
