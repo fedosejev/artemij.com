@@ -12,6 +12,10 @@ body {
   text-align: center;
 }
 
+ul li {
+  list-style-type: none;
+}
+
 .container-fliud .row {
   margin: 0;
 }
@@ -35,13 +39,20 @@ body {
 
 h1 {
   margin: 40px 0 10px 0;
-  font-size: 2em;
+  font-size: 2.5em;
   font-family: sans-serif;
-  font-weight: bold;
+  font-weight: 300;
   text-transform: uppercase;
 }
 
 h2 {
+  margin: 40px 0 10px 0;
+  font-size: 2em;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+.products {
   font-size: 1.1em;
   font-weight: 300;
   font-family: sans-serif;
@@ -61,10 +72,6 @@ p {
   line-height: 1.9em;
 }
 
-p strong {
-  font-weight: bold;
-}
-
 a {
   text-decoration: none;
   word-wrap: break-word;
@@ -77,24 +84,15 @@ a:hover,
 a:focus,
 a:active {
   text-decoration: none;
-  color: black;
+  color: #0053a0;
   padding-bottom: 1px;
-  border-bottom: 1px solid #777;
+  border-bottom: 1px solid #0053a0;
 }
 
-.download-cv-button,
-.download-cv-button:hover,
-.download-cv-button:focus,
-.download-cv-button:active {
+.download-cv-button {
   display: inline-block;
-  margin: 40px 0 10px 0;
-  border: 0;
-}
-
-.download-cv-button span {
-  font-family: sans-serif;
-  font-weight: 300;
-  font-size: 26px;
+  margin: 50px 0 0 0;
+  font-size: 1.5em;
 }
 
 .contact {
@@ -106,18 +104,6 @@ a:active {
   margin: 0 30px;
   display: inline-block;
   border-bottom: none;
-}
-
-.download-cv-button:focus {
-  outline: none;
-}
-
-.download-cv-button:hover {
-  text-shadow: -1px 1px #333;
-}
-
-.download-cv-button:active {
-  text-shadow: -1px 1px #333;
 }
 
 .copyright {

@@ -12,6 +12,10 @@ body {
   text-align: center;
 }
 
+ul li {
+  list-style-type: none;
+}
+
 .container-fliud .row {
   margin: 0;
 }
@@ -35,13 +39,20 @@ body {
 
 h1 {
   margin: 40px 0 10px 0;
-  font-size: 2em;
+  font-size: 2.5em;
   font-family: sans-serif;
-  font-weight: bold;
+  font-weight: 300;
   text-transform: uppercase;
 }
 
 h2 {
+  margin: 40px 0 10px 0;
+  font-size: 2em;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+.products {
   font-size: 1.1em;
   font-weight: 300;
   font-family: sans-serif;
@@ -61,10 +72,6 @@ p {
   line-height: 1.9em;
 }
 
-p strong {
-  font-weight: bold;
-}
-
 a {
   text-decoration: none;
   word-wrap: break-word;
@@ -77,9 +84,9 @@ a:hover,
 a:focus,
 a:active {
   text-decoration: none;
-  color: black;
+  color: #0053a0;
   padding-bottom: 1px;
-  border-bottom: 1px solid #777;
+  border-bottom: 1px solid #0053a0;
 }
 
 .contact {
