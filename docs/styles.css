@@ -38,25 +38,32 @@ ul li {
 }
 
 h1 {
-  margin: 40px 0 10px 0;
-  font-size: 2.5em;
+  margin: 40px 0 20px 0;
+  font-size: 3em;
   font-family: sans-serif;
   font-weight: 300;
-  text-transform: uppercase;
 }
 
 h2 {
-  margin: 40px 0 10px 0;
-  font-size: 2em;
+  margin: 120px 0 40px 0;
+  font-size: 2.1em;
   font-family: sans-serif;
   font-weight: 300;
 }
 
-.products {
+.products,
+.experience {
   font-size: 1.1em;
   font-weight: 300;
   font-family: sans-serif;
-  line-height: 1.9em;
+  line-height: 2em;
+  margin: 0;
+}
+
+.experience strong,
+.clients strong {
+  font-weight: 400;
+  color: black;
 }
 
 h3 {
