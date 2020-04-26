@@ -57,15 +57,12 @@ h2 {
 }
 
 .products,
-.experience {
-  font-size: 1.1em;
+.experience,
+.clients {
+  font-size: 1em;
   font-weight: 300;
   font-family: sans-serif;
   margin: 0;
-}
-
-.products li,
-.experience li {
 }
 
 .experience strong,
