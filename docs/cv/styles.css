@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: sans-serif;
+  font-size: 22px;
+  color: #444;
+  background-color: #fcfcfc;
+  text-align: center;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.container-fliud .row {
+  margin: 0;
+}
+
+.photo {
+  width: 300px;
+  margin-top: 60px;
+}
+
+.clip-shape {
+  -webkit-clip-path: polygon(
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    0% 100%,
+    25% 50%,
+    0% 0%
+  );
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+
+h1 {
+  margin: 40px 0 20px 0;
+  font-size: 3em;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+.how-to-pronounce-my-name {
+  color: #777;
+}
+
+h2 {
+  margin: 120px 0 40px 0;
+  font-size: 2.1em;
+  font-family: sans-serif;
+  font-weight: 300;
+  line-height: 1.4em;
+}
+
+.products,
+.experience,
+.clients {
+  font-size: 1em;
+  font-weight: 300;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.experience strong,
+.clients strong {
+  font-weight: 400;
+  color: black;
+}
+
+h3 {
+  font-size: 1.6em;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+p,
+li {
+  font-size: 1em;
+  font-weight: 300;
+  font-family: sans-serif;
+}
+
+p {
+  line-height: 1.9em;
+}
+
+li {
+  line-height: 1.6em;
+  margin: 20px 0;
+}
+
+a {
+  text-decoration: none;
+  word-wrap: break-word;
+  color: black;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #777;
+}
+
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: #0053a0;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #0053a0;
+}
+
+.contact {
+  margin: 40px 0;
+}
+
+.contact a {
+  font-size: 2em;
+  margin: 0 30px 30px 30px;
+  display: inline-block;
+  border-bottom: none;
+}
+
+.copyright {
+  font-size: 18px;
+  font-weight: 100;
+  color: #999;
+}
+
+.download-cv-button {
+  font-size: 1.5em;
+}
