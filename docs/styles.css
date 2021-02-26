@@ -58,7 +58,8 @@ h2 {
 
 .products,
 .experience,
-.clients {
+.clients,
+.essays {
   font-size: 1em;
   font-weight: 300;
   font-family: sans-serif;
