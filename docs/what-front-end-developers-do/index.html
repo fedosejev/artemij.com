@@ -283,7 +283,7 @@
                     real people should not fill this in and expect good things - do not remove this or risk form bot signups
                   -->
                   <div
-                    style="position: absolute; left: -5000px;"
+                    style="position: absolute; left: -5000px"
                     aria-hidden="true"
                   >
                     <input
@@ -466,7 +466,13 @@
 
           <p>Tell your colleagues about the book!</p>
 
-          <p class="copyright">Copyright © 2019 by Artemij Fedosejev</p>
+          <p class="copyright mt-5 mb-5">
+            Copyright &copy;
+            <script>
+              new Date().getFullYear();
+            </script>
+            by Artemij Fedosejev
+          </p>
         </div>
       </div>
     </div>
@@ -488,7 +494,7 @@
 
     <!-- start Mixpanel -->
     <script type="text/javascript">
-      (function(c, a) {
+      (function (c, a) {
         if (!a.__SV) {
           var b = window;
           try {
@@ -497,7 +503,7 @@
               j,
               k = b.location,
               f = k.hash;
-            d = function(a, b) {
+            d = function (a, b) {
               return (m = a.match(RegExp(b + "=([^&]*)"))) ? m[1] : null;
             };
             f &&
@@ -514,34 +520,35 @@
           var l, h;
           window.mixpanel = a;
           a._i = [];
-          a.init = function(b, d, g) {
+          a.init = function (b, d, g) {
             function c(b, i) {
               var a = i.split(".");
               2 == a.length && ((b = b[a[0]]), (i = a[1]));
-              b[i] = function() {
+              b[i] = function () {
                 b.push([i].concat(Array.prototype.slice.call(arguments, 0)));
               };
             }
             var e = a;
             "undefined" !== typeof g ? (e = a[g] = []) : (g = "mixpanel");
             e.people = e.people || [];
-            e.toString = function(b) {
+            e.toString = function (b) {
               var a = "mixpanel";
               "mixpanel" !== g && (a += "." + g);
               b || (a += " (stub)");
               return a;
             };
-            e.people.toString = function() {
+            e.people.toString = function () {
               return e.toString(1) + ".people (stub)";
             };
-            l = "disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(
-              " "
-            );
+            l =
+              "disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(
+                " "
+              );
             for (h = 0; h < l.length; h++) c(e, l[h]);
             var f = "set set_once union unset remove delete".split(" ");
-            e.get_group = function() {
+            e.get_group = function () {
               function a(c) {
-                b[c] = function() {
+                b[c] = function () {
                   call2_args = arguments;
                   call2 = [c].concat(Array.prototype.slice.call(call2_args, 0));
                   e.push([d, call2]);
@@ -587,7 +594,7 @@
           eventCategory: source,
           eventAction: "click",
           eventLabel: event.target.href,
-          transport: "beacon"
+          transport: "beacon",
         });
       }
 
@@ -595,13 +602,13 @@
 
       document
         .querySelector("#link-to-product-page-via-cover")
-        .addEventListener("click", function(event) {
+        .addEventListener("click", function (event) {
           handleOutboundLinkClicks(event, "Product Cover Image");
         });
 
       document
         .querySelector("#link-to-product-page-via-buy-button")
-        .addEventListener("click", function(event) {
+        .addEventListener("click", function (event) {
           handleOutboundLinkClicks(event, "Product Buy Button");
         });
 
@@ -609,25 +616,25 @@
 
       document
         .querySelector("#link-to-author-linkedin-via-first-author-photo")
-        .addEventListener("click", function(event) {
+        .addEventListener("click", function (event) {
           handleOutboundLinkClicks(event, "First Author Photo");
         });
 
       document
         .querySelector("#link-to-author-website-via-author-name")
-        .addEventListener("click", function(event) {
+        .addEventListener("click", function (event) {
           handleOutboundLinkClicks(event, "Author Name");
         });
 
       document
         .querySelector("#link-to-author-linkedin-via-second-author-photo")
-        .addEventListener("click", function(event) {
+        .addEventListener("click", function (event) {
           handleOutboundLinkClicks(event, "Second Author Photo");
         });
 
       document
         .querySelector("#link-to-react-essentials-book-on-amazon-via-book-name")
-        .addEventListener("click", function(event) {
+        .addEventListener("click", function (event) {
           handleOutboundLinkClicks(event, "React.js Essentials");
         });
 
@@ -635,31 +642,31 @@
         .querySelector(
           "#link-to-author-email-via-request-one-to-one-coaching-button"
         )
-        .addEventListener("click", function(event) {
+        .addEventListener("click", function (event) {
           handleOutboundLinkClicks(event, "Request One-to-One Coaching Button");
         });
 
       document
         .querySelector("#link-to-author-email-via-request-talk-button")
-        .addEventListener("click", function(event) {
+        .addEventListener("click", function (event) {
           handleOutboundLinkClicks(event, "Request Talk Button");
         });
 
       document
         .querySelector("#link-to-author-email-via-request-training-button")
-        .addEventListener("click", function(event) {
+        .addEventListener("click", function (event) {
           handleOutboundLinkClicks(event, "Request Training Button");
         });
 
       document
         .querySelector("#link-to-author-linkedin-via-linkedin-icon")
-        .addEventListener("click", function(event) {
+        .addEventListener("click", function (event) {
           handleOutboundLinkClicks(event, "LinkedIn Icon");
         });
 
       document
         .querySelector("#link-to-author-email-via-get-in-touch-link")
-        .addEventListener("click", function(event) {
+        .addEventListener("click", function (event) {
           handleOutboundLinkClicks(event, "Get In Touch");
         });
     </script>
