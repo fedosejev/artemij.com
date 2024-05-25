@@ -121,6 +121,11 @@ blockquote.recommendation {
   padding-bottom: 40px;
 }
 
+.photo {
+  width: 300px;
+  margin-top: 60px;
+}
+
 .clip-shape {
   -webkit-clip-path: polygon(
     75% 0%,
